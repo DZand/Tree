@@ -42,8 +42,6 @@ int main() {
             .CHECK_THROWS(threetree.insert(3))
             .CHECK_THROWS(threetree.left(6))
             .CHECK_THROWS(threetree.right(6))
-            .CHECK_THROWS(threetree.left(6))
-            .CHECK_THROWS(threetree.right(6))
             .CHECK_OK    (emptytree.insert(-70))
             .CHECK_OK    (emptytree.insert(-20))
             .CHECK_OK    (emptytree.remove(-70))
